@@ -1,0 +1,47 @@
+.banner{
+    background-color: coral;
+    border: 2px solid black;
+    border-radius:10px;
+    width: 400px;
+    height: 50vh;
+}
+body{
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 400vh;*/
+}
+.banner h1{
+    font-family: C059, serif;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+}
+.banner input{
+    width: 70%;
+    position: relative;
+    margin: 10px 20px ;
+    height: 20px;
+    border: none;
+    outline:none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+    padding: 1px;
+}
+.button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.banner label{
+    margin: 10px 20px;
+}
+.button button{
+    padding: 10px;
+    width:100%;
+    color: darksalmon;
+    background-color: darkcyan;
+}

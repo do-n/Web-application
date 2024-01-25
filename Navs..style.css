@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Schoolbook L", sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+    background-size: cover;
+    background-position:center ;
+    background-image: url("Resource/mercedes-benz-3711490_1280.jpg");
+
+}
+.navbar{
+    width: 40%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercase;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    right: 200px;
+    margin: auto;
+    color: beige;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Gubbi, sans-serif;
+    letter-spacing:1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: "Century Schoolbook L", sans-serif;
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9px;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background-color: cyan;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.content .cn a{
+    text-decoration: none;
+    color: burlywood;
+}
+.cn :hover{
+    background-color: gainsboro;
+    /*color: black;*/
+}
+.content span{
+    color: darkseagreen;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    background-color: lightgray;
+    color: black;
+    position: absolute;
+    /*margin-right: 20px;*/
+    top: 20px;
+    left: 1300px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.form h2{
+    width: 200px;
+    font-size: 15px;
+    color: dimgray;
+    text-align: center;
+    font-family: "Century Schoolbook L";
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 2px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: "Century Schoolbook L";
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: chartreuse;
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+.btn :hover{
+    background-color: cyan;
+    color: beige;
+
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: "Century Schoolbook L";
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: black;
+}
